@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mailBotTest" parallel="tests" thread-count="1">
+<test name="Test01">
+<parameter name="TestCaseName" value="MyAccountCapability"></parameter>
+<parameter name="Browser" value="IE"></parameter>
+<classes>
+<class name="mailBotExecute.script.MyAccountCapability"/>
+</classes>
+</test>
+</suite>

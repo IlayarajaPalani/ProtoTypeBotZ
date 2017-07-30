@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [mailBotTest]" parallel="tests">
+  <parameter name="TestCaseName" value="MyAccountCapability"/>
+  <parameter name="Browser" value="IE"/>
+  <test name="Test01(failed)" parallel="tests">
+    <parameter name="TestCaseName" value="MyAccountCapability"/>
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="mailBotExecute.script.MyAccountCapability">
+        <methods>
+          <include name="addFileFlow" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mailBotExecute.script.MyAccountCapability -->
+    </classes>
+  </test> <!-- Test01(failed) -->
+</suite> <!-- Failed suite [mailBotTest] -->
