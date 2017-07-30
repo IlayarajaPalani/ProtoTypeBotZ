@@ -1,0 +1,7 @@
+mailBotExecute\script\MyAccountCapability.class
+ProtoType\MailBot\App.class
+ProtoType\MailBot\DriverManager.class
+ProtoType\MailBot\FrameworkConstants.class
+ProtoType\MailBot\LoadProperties.class
+ProtoType\MailBot\commandManager.class
+ProtoType\MailBot\InitiateLogin.class
