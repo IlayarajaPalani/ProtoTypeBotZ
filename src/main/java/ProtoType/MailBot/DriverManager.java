@@ -27,8 +27,8 @@ public class DriverManager  implements SauceOnDemandSessionIdProvider, SauceOnDe
 	private static WebDriver webDriver = null;
 	private static DriverManager driverManager = null;
 	
-	public String username = System.getenv("SAUCE_USER_NAME") != null ? System.getenv("SAUCE_USER_NAME") : System.getenv("SAUCE_USERNAME");
-    public String accesskey = System.getenv("SAUCE_API_KEY") != null ? System.getenv("SAUCE_API_KEY") : System.getenv("SAUCE_ACCESS_KEY");
+	public String username = "IlayarajaPalani";
+    public String accesskey = "ae14481c-c084-4502-8a21-32b1093e3e19";
 	
     public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
    // private ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
